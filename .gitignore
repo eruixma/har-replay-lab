@@ -1,0 +1,9 @@
+# 抓取产物：体积大、可能含私有数据，不要提交
+captures/
+site/
+fixtures/
+logs/
+
+node_modules/
+.DS_Store
+*.log

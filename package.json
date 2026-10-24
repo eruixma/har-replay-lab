@@ -1,0 +1,29 @@
+{
+  "name": "har-replay-lab",
+  "version": "1.0.0",
+  "description": "Replay a logged-in web app locally from a HAR capture: static shell + mocked APIs, for studying its frontend design",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "capture": "node scripts/capture.mjs",
+    "site": "node scripts/to-site.mjs",
+    "fixtures": "node scripts/to-fixtures.mjs",
+    "serve": "node scripts/serve.mjs",
+    "replay": "node scripts/replay.mjs",
+    "walk": "node scripts/walk.mjs",
+    "demo": "node examples/demo-app.mjs"
+  },
+  "keywords": [
+    "har",
+    "cdp",
+    "chrome-devtools",
+    "mock",
+    "spa",
+    "reverse-engineering",
+    "frontend-analysis"
+  ]
+}
